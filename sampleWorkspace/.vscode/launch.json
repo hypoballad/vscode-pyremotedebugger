@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pythonRemotePdb",
+            "request": "launch",
+            "name": "Python: Remote launch",
+            "program": "${workspaceFolder}/sample.py",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "."
+                }
+            ]
+        },
+        {
+            "type": "pythonRemotePdb",
+            "request": "attach",
+            "name": "Python: Remote Attach",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "."
+                }
+            ]
+        }
+    ]
+}
